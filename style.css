@@ -1,0 +1,87 @@
+ * { 
+	margin: 0; 
+	padding: 0; 
+	box-sizing: border-box; 
+
+}
+ 
+  #intro{
+	  margin-top: 50px;
+ 	background-color: #A2AAAD;
+ 	color: #FFFFFF;
+ 	height: 20%;	
+	text-align: center;
+
+ } 
+
+
+ body { 
+ 	font: 20px;
+}
+
+ 
+ 
+ form { 
+ 	
+ 	padding: 3px; 
+ 	position: fixed; 
+ 	bottom: 5px; 
+ 	width: 100%; 
+	margin-bottom: 45.4%;
+	background-color: rgb(255, 255, 255);
+ }
+ 
+ form input { 
+ 	background-color: rgb(255, 255, 255);
+ 	border: 0; 
+ 	padding: 10px; 
+ 	width: 90%; 
+ 	margin-right: 0.5%; 
+	
+ }
+ 
+ form button { 
+ 	width: 9%; 
+ 	background: #A2AAAD;
+ 	border-radius: 20px;
+ 	padding: 5px; 
+ 	font-size: 20px;
+	 border: none;
+	
+
+ }
+ 
+ #messages { 
+    
+ 	margin: 0; 
+ 	padding: 0; 
+	margin-top:1%;
+     
+ 	
+ }
+ 
+ #messages li { 
+	list-style-type: none;
+ 	padding: 5px 10px; 
+	color: rgb(125, 128, 125);
+	background-color: rgb(255, 255, 255);
+	margin-left: 60%;
+	margin-bottom: 15px;
+	border-bottom-left-radius: 20px;
+	border-top-right-radius: 20px;
+
+ }
+ 
+ #messages li:nth-child(odd) { 
+	
+ }
+
+
+#list{
+	text-align: right;
+}
+@media (min-width: 360px) {
+	 form {
+		margin-bottom: 160%;
+	}
+  }
